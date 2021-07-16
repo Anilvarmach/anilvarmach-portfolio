@@ -179,8 +179,8 @@ header .navbar ul li a:hover{
    
     list-style-type: none;
     display: inline;
-    padding: 1rem;
-    font-size: 5rem;
+    padding: 0.5rem;
+    font-size: 3rem;
 }
 .home ul li a{
     color: var(--yellow);
@@ -197,27 +197,41 @@ header .navbar ul li a:hover{
     padding:1rem 0;
     
 }
-
+.about .row p{
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 2rem;
+    margin: 3rem;
+    margin-bottom: 0;
+    text-align: justify;
+}
 .about .row .info{
     align-items: center;
     flex:1 1 48rem;
     padding-left: 6rem;
     padding-bottom: 6rem;
-    padding-top: 6rem;
+    padding-top: 3rem;
 }
 
 .about .row .info h3{
     font-size: 2rem;
-    color:var(--yellow);
+    color:#eee;
     padding:1rem 0;
     font-weight: normal;
 }
 
 .about .row .info h3 span{
-    color:#eee;
     padding:0 .5rem;
+    color:var(--yellow);
 }
 
+.about .row .info h3 strong{
+    font-weight: bolder;
+    color: #e4cd79;
+}
+.about .row .info h3 sup{
+    text-transform: lowercase;
+}
 .about .row .info ul{
     color: #eee;
     font-size: 2rem;
